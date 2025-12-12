@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NeuroPlay Studios — Personalized Gaming</title>
+  <meta name="description" content="NeuroPlay Studios — We created Personalized Gaming Powered by AI" />
+
+  <!-- icons & manifest -->
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logo-32.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/logo-64.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/logo-180.png" />
+  <meta name="theme-color" content="#373737" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="NeuroPlay Studios homepage">
+        <img src="assets/logo-128.png" alt="NeuroPlay Studios logo" class="logo" />
+        <span class="brand-name">NeuroPlay Studios</span>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="primary-nav" class="nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero without illustration -->
+    <section class="hero no-media" role="region" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-heading">Personlized Gaming Powered by AI</h1>
+          <p class="lead">We deliver AI‑driven personalized gaming experiences that adapt to each player's style, skill, and accessibility needs — creating richer, more replayable and inclusive play for everyone.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="games.html">View Our Games</a>
+            <a class="btn ghost" href="about.html">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured container" aria-labelledby="featured-heading">
+      <h2 id="featured-heading">Featured Games</h2>
+      <p class="section-sub">Playtest our latest prototypes and releases.</p>
+
+      <div class="games-grid" aria-hidden="false" style="margin-top:1.25rem">
+        <article class="game-card" aria-label="Featured Game 1">
+          <img src="assets/game-sync-run.png" alt="Untitled" />
+        </article>
+
+        <article class="game-card" aria-label="Featured Game 2">
+          <img src="assets/game-mindforge.png" alt="Untitled" />
+        </article>
+
+        <article class="game-card" aria-label="Featured Game 3">
+          <img src="assets/game-echo-protocol.png" alt="Untitled" />
+        </article>
+      </div>
+    </section>
+
+    <section class="cta container" aria-labelledby="cta-heading">
+      <h2 id="cta-heading">Join our playtests and newsletter</h2>
+      <p>Sign up to get early access, dev diaries, and playtest invites.</p>
+      <form class="newsletter" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+        <label for="email" class="sr-only">Email address</label>
+        <input type="email" name="email" id="email" placeholder="you@company.com" required />
+        <button class="btn primary" type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand-footer" aria-label="NeuroPlay Studios homepage">
+          <img src="assets/logo-64.png" alt="NeuroPlay Studios logo" class="logo-sm" />
+          <span>NeuroPlay Studios</span>
+        </a>
+        <p class="muted">© <span id="year"></span> NeuroPlay Studios. All rights reserved.</p>
+      </div>
+
+      <div>
+        <h4>Studio</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Follow</h4>
+        <ul class="social-links">
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+          <li><a href="#" aria-label="YouTube">YouTube</a></li>
+          <li><a href="#" aria-label="Discord">Discord</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

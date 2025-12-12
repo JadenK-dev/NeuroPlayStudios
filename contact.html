@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Contact — NeuroPlay Studios</title>
+  <meta name="description" content="Contact NeuroPlay Studios for press, partnerships, or playtests." />
+
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logo-32.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/logo-64.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/logo-180.png" />
+  <meta name="theme-color" content="#373737" />
+
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="NeuroPlay Studios">
+        <img src="assets/logo-128.png" alt="NeuroPlay Studios logo" class="logo" />
+        <span class="brand-name">NeuroPlay Studios</span>
+      </a>
+
+      <nav id="primary-nav" class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html" aria-current="page" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding:2.5rem 0;max-width:760px;margin:0 auto">
+    <h1>Contact</h1>
+    <p class="lead">We'd love to hear from you — press, partnerships, or playtest inquiries.</p>
+
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form" style="display:grid;gap:.75rem;margin-top:1rem" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button class="btn primary" type="submit">Send Message</button>
+    </form>
+
+    <div style="margin-top:1.25rem;color:var(--muted);font-size:.95rem">
+      Or reach us directly: <a href="mailto:hello@neuroplay.games">hello@neuroplay.games</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand-footer">
+          <img src="assets/logo-64.png" alt="NeuroPlay Studios logo" class="logo-sm" />
+          <span>NeuroPlay Studios</span>
+        </a>
+        <p class="muted">© <span id="year"></span> NeuroPlay Studios. All rights reserved.</p>
+      </div>
+      <div></div><div></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

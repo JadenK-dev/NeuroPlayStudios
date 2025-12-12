@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>About — NeuroPlay Studios</title>
+  <meta name="description" content="About NeuroPlay Studios — mission, values, and studio history." />
+
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logo-32.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/logo-64.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/logo-180.png" />
+  <meta name="theme-color" content="#373737" />
+
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="NeuroPlay Studios homepage">
+        <img src="assets/logo-128.png" alt="NeuroPlay Studios logo" class="logo" />
+        <span class="brand-name">NeuroPlay Studios</span>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="primary-nav" class="nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding:2.5rem 0">
+    <h1>About NeuroPlay Studios</h1>
+    <p class="lead">We deliver AI‑driven personalized gaming experiences that adapt to each player's style, skill, and accessibility needs — creating richer, more replayable and inclusive play for everyone.</p>
+
+    <section aria-labelledby="mission-heading" style="margin-top:1.25rem;display:grid;grid-template-columns:1fr 360px;gap:2rem;align-items:start">
+      <div>
+        <h2 id="mission-heading">Mission</h2>
+        <p>To provide personalized gaming to all gamers to redefine the gaming world.</p>
+
+        <h2 id="vision-heading" style="margin-top:1.25rem">Vision</h2>
+        <p>To redefine gaming through AI‑driven personalization, creating adaptive worlds with limitless replayability and accessibility.</p>
+
+        <h2 id="values-heading" style="margin-top:1.25rem">Values</h2>
+        <ul>
+          <li><strong>Innovation</strong> — We push technical and design boundaries to discover new forms of play.</li>
+          <li><strong>Inclusivity</strong> — Games should be welcoming and accessible to players from all backgrounds and abilities.</li>
+          <li><strong>Creativity</strong> — We value bold ideas and expressive artistry in every project.</li>
+          <li><strong>Community</strong> — We build with players, not just for them — feedback and playtests guide our process.</li>
+          <li><strong>Integrity</strong> — We act honestly and respectfully in our business and design choices.</li>
+        </ul>
+      </div>
+
+      <aside style="background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:1rem;border-radius:12px;">
+        <h3>Press & Media</h3>
+        <p class="small muted">For press inquiries, email <a href="mailto:press@neuroplay.games">press@neuroplay.games</a> and request our press kit.</p>
+
+        <h3 style="margin-top:1rem">Join our playtests</h3>
+        <p class="small muted">Sign up on the homepage newsletter to receive playtest invites and developer updates.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand-footer" aria-label="NeuroPlay Studios homepage">
+          <img src="assets/logo-64.png" alt="NeuroPlay Studios logo" class="logo-sm" />
+          <span>NeuroPlay Studios</span>
+        </a>
+        <p class="muted">© <span id="year"></span> NeuroPlay Studios. All rights reserved.</p>
+      </div>
+      <div></div>
+      <div></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
